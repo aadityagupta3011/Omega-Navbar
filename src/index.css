@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.tryChild {  
+  display: none !important;
+}
+
+.tryChildChild {
+  display: none !important;
+}
+
+.tryParent:hover .tryChild {
+  display: block !important;
+}
+
+.tryParentParent:hover .tryChildChild {
+  display: block !important ; 
+}
+
+
